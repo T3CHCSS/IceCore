@@ -94,7 +94,7 @@ async function init() {
                 await update();
                 if (Settings.autoUpdateNotification)
                     setTimeout(() => showNotification({
-                        title: "Vencord has been updated!",
+                        title: "IceCore has been updated!",
                         body: "Click here to restart",
                         permanent: true,
                         noPersist: true,
